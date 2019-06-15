@@ -30,7 +30,7 @@ void draw() {
     case MENU: //Display the setup menu
     
     //This is just for testing for now
-    p1 = new PlayerRandy(true);
+    p1 = new PlayerChase(true);
     p2 = new PlayerRandy(false);
     arena = new Arena(p1, p2);
     arena.setNumMatches(100);
