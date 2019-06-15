@@ -23,7 +23,7 @@ public enum Move
        return (m.mcode == 0); //...breats rock
        
       case 2: //scissors...
-        return (m.mcode == 2); //...beats paper
+        return (m.mcode == 1); //...beats paper
       default:
         return false;
     }

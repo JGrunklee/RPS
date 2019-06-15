@@ -31,6 +31,10 @@ public abstract class RPSPlayer {
       head.insert(rec);
     }
     
+    public MatchRecord getRecord() {
+      return head;
+    }
+    
     public String getName() {
       return name;
     }
